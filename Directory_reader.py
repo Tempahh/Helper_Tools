@@ -17,6 +17,8 @@ def copy_file_content(directory_path, output_file):
             if os.path.isfile(filepath):
                 try:
                     with open(filepath, 'r') as file:
+                        output.write(directory_path)
+                        output.write('\n\n')
                         output.write(file.read())
                         output.write('\n')
                 except Exception as e:
