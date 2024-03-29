@@ -1,5 +1,7 @@
 import os, sys
 
+#Author: Propser Orjiogo(Tempah)
+
 
 """
 this is a function that takes a directory as an argument
