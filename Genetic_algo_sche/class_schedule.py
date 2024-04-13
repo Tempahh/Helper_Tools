@@ -54,9 +54,7 @@ classes = {
 
 level_100_classes = [subject for subject, info in classes.items() if info['level'] == 100]
 
-# Function to generate a random schedule
-
-# Function to generate a random schedule
+# Function to generate a random schedule based on certain criterias
 def generate_random_schedule():
     schedule = []
     monthly_classes_remaining = [subject for subject, info in classes.items() if info['level'] != 100 and info['frequency'] == 'monthly']
